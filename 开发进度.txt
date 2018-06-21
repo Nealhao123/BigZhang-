@@ -20,7 +20,9 @@ clear
 	3.确定开发语言,包括用的软件版本(-)：
 		
 		语言拟定 java
-		工具：intellij idea
+		工具：intellij idea（下载地址：https://www.jetbrains.com/idea/download/#section=windows
+选试用版本，破解安装指导：https://blog.csdn.net/qq_35434690/article/details/77683655
+）
 		
 	4.确定一下用什么框架	
 		余总觉得springmvc和springboot都可以
