@@ -1,5 +1,5 @@
 -->说明:1.方便各位即时获取了解任务进度
-		2.（无关紧要）该文本使用notepad++创建，语言格式是自定义的，一般-->开始，clear结尾，在“语言”->“自定义语言格式”设置)
+		2.（无关紧要）该文本使用notepad++创建，语言格式是自定义的，一般-->开始，clear结尾，在“语言”->“自定义语言格式”设置
 		
 		3.(V) 表示完成 (-) 表示待完成 (X)表示不做了
 clear
@@ -14,9 +14,9 @@ clear
 		
 	>需要提供你们github的“用户名”，然后我邀请你们进入这个项目
 		目前已经进入项目：
-		小聪、余总、浩、潇洒、我赢、小勇勇
+		小聪、余总、浩、潇洒、我赢、小勇勇、鹏神
 	>未进入项目：
-	>小马哥、繁总、（鹏神）
+	>小马哥、繁总
 		
 	3.确定开发语言,包括用的软件版本(V)：
 		
@@ -24,8 +24,9 @@ clear
 		
 		jdk 1.8.0_171
 		
-		工具：intellij idea（下载地址：https://www.jetbrains.com/idea/download/#section=windows
-选试用版本，破解安装指导：https://blog.csdn.net/qq_35434690/article/details/77683655
+		工具：
+		intellij idea（下载地址：https://www.jetbrains.com/idea/download/#section=windows
+		选试用版本，破解安装指导：https://blog.csdn.net/qq_35434690/article/details/77683655
 ）		
 		数据库：MySql
 		tomcat8.5
