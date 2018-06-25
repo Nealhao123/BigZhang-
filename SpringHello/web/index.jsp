@@ -12,5 +12,6 @@
   </head>
   <body>
   <a href="http://127.0.0.1:8080/hello"> 测试链接</a>
+  <a href="http://127.0.0.1:8080/layui"> 测试链接layui</a>
   </body>
 </html>
