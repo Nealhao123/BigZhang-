@@ -9,8 +9,21 @@
 <html>
 <head>
     <title>结果页面</title>
+    <script type="text/javascript" src="../../script/hello.js"></script>
+    <script language="JavaScript">
+        function showHelloWorld() {
+            alert("HelloWorld from JSP.JS");
+            try{
+                func1();
+            }
+            catch (e) {
+                alert(e.toString());
+            }
+        }
+    </script>
 </head>
 <body>
-ok
+    <input type="text" id="tb1" value="Neal," >
+    <button id="btn1" onclick="showHelloWorld();">点击</button>
 </body>
 </html>
