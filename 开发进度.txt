@@ -11,43 +11,51 @@ clear
 	
 	2.SVN(V)
 		确保一下每个人都可以上传代码到github(V)
-		
-	>需要提供你们github的“用户名”，然后我邀请你们进入这个项目
+		需要提供你们github的“用户名”，然后我邀请你们进入这个项目
 		目前已经进入项目：
 		小聪、余总、浩、潇洒、我赢、小勇勇、鹏神
-	>未进入项目：
-	>小马哥、繁总
+>未进入项目：
+>小马哥、繁总
 		
 	3.确定开发语言,包括用的软件版本(V)：
-		
 		语言拟定: java
+		☆以下工具打包下载地址：https://pan.baidu.com/s/1RO3Ww1Y9Lt13WGIkMYcX9A
+		除了Mysql都有：
 		
-		jdk 1.8.0_171
+		①jdk 1.8.0_171
 		
-		工具：
-		intellij idea（下载地址：https://www.jetbrains.com/idea/download/#section=windows
+		②intellij idea（下载地址：https://www.jetbrains.com/idea/download/#section=windows
 		选试用版本，破解安装指导：https://blog.csdn.net/qq_35434690/article/details/77683655
 ）		
-		数据库：MySql
-		tomcat8.5
+		③tomcat8.5
 		（测试开发环境搭建，用Intellij IDEA做了一个web的小测试，教程：https://blog.csdn.net/maomengmeng/article/details/52043928/
 		）
 		
-	4.确定一下用什么框架（V）	
+		④数据库：MySql
+		
+	-->4.确定一下用什么框架（V）	
 		余总觉得springmvc和springboot都可以
 		小马哥认为用springMvc，这个大家可能都比较熟悉
-		 
-		>拟定使用 springMVC，周末会搭一个简单的框架(V)
+		拟定使用 springMVC，周末会搭一个简单的框架(V)
 		小聪已经搭了一个简单的MVC的HelloWorld并已经上传，如果大家都可以调通，下一步就开始实际着手做了。
+		clear
 		
-	-->5.搭建好简单框架后，让大家都把开发环境配置好并可以共同使用这个框架（-）
+	-->5.搭建好简单框架后，让大家都把开发环境配置好并可以共同使用这个框架（V）
 		看看大家是否都能调通
 		
+		目前对调能调通：
+		小聪、浩
+		>未询问进展情况的：
+		余总、潇洒、我赢、小勇勇、鹏神
 		
+	-->6.
+		1.我们首先得对，springMVC有一个共同的探索和认识
+		2.目前我们在尝试着使用layui来进行前端的布局，并提供了一个应用示例到远端，大家可以下载了解一下。
 		
-		
+	7.需求分析(-)
+		等待各位环境大家并能调通后，确定好技术后，开始需求分析和ER图。
+	
 	.......
-	6.需求分析(-)
 	6.模块分析和任务分配(-)
 		感觉大家都是写后台的，前端人员可能比较稀缺
 		到时候先看看难不难，如果不难我可以现学现做。
@@ -64,7 +72,6 @@ clear
 	3.如果要想把这个系统做得好看一点，美工可能会是一个问题(-)
 		也就是前端
 		新加盟了我赢
-	
 	
 	
 	
