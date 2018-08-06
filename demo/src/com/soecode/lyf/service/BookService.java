@@ -23,4 +23,8 @@ public interface BookService {
 	int reduceNumber(long bookId);
 
     String chongZhiMoney(int chongZhiCount);
+
+    Book getOne(String book_id);
+
+    public void updateBook(Book book);
 }

@@ -48,10 +48,26 @@ public class BookController {
         // 我在这里是怎么和数据库交互的？
         //bookService.reduceNumber();
    }
-@RequestMapping(value = "/chongZhiMoney")
-    private String chongZhiMoney(int chongZhiCount){
-        bookService.chongZhiMoney(chongZhiCount);
+   //前往book.jsp
+    @RequestMapping("/toBook")
+    public String toBook(){
+        return "book";
+    }
+    //
+   @RequestMapping(value = "/addBook")
+    private String addBook( String book_id, int number,Model model){
+        //通过book_id查询得到Book对象
+        Book book = bookService.getOne(book_id);
+        //计算增加之后的数量
+        int numberAfter = book.getNumber()+number;
 
-}
+        book.setNumber(numberAfter);
+        //更新操作
+       bookService.updateBook(book);
+       //从数据库查询
+       Book book2 = bookService.getOne(book_id);
+       model.addAttribute("book",book2);
+        return "info";
+    }
 
 }

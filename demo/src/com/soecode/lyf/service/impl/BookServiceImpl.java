@@ -32,6 +32,20 @@ public class BookServiceImpl implements BookService {
 		return num;
 	}
 
+	@Override
+	public String chongZhiMoney(int chongZhiCount) {
+		return null;
+	}
+
+	@Override
+	public Book getOne(String book_id) {
+		return bookDao.queryOne(book_id);
+	}
+
+	@Override
+	public void updateBook(Book book) {
+		bookDao.updateBook(book);
+	}
 
 
 }
