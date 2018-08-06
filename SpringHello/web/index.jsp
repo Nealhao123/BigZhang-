@@ -7,23 +7,42 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
+<head>
     <title>$Title$</title>
-  </head>
-  <body bgcolor="#e3e3e3">
-  <center>
-    <form action="check.jsp" method="post">
-      <table>
-        <caption>用户登录</caption>
-        <tr><td>用户名：</td><td><input type="text" name="username" size="20"/></td></tr>
-        <tr><td>密码:</td><td><input type="password" name="pwd" size="21"/></td></tr>
-        <tr>
-          <td><input type="submit" value="登录"/></td>
-          <td><input type="reset" value="重置" /></td>
-        </tr>
-      </table>
-    </form>
-    <%--如果您还没有注册，请单击<a href="register.jsp">这里</a>注册！--%>
-  </center>
-  </body>
+</head>
+<body>
+<p class="clear box layui-main login">
+
+    <form class="layui-form layui-form-pane1" action="ulogin" method="post">
+<p class="layui-form-item">
+    <label class="layui-form-label">用户名：</label>
+<p class="layui-input-block">
+    <input type="text" name="user.name" lay-verify="uname" required
+           placeholder="请输入用户名" autocomplete="off" class="layui-input">
+</p>
+</p>
+<p class="layui-form-item">
+    <label class="layui-form-label">密码：</label>
+<p class="layui-input-block">
+    <input type="password" name="user.pwd" lay-verify="" required
+           placeholder="请输入密码" autocomplete="off" class="layui-input">
+</p>
+</p>
+<p class="layui-form-item">
+    <label class="layui-form-label">验证码：</label>
+<p class="layui-input-block">
+    <input type="text" name="yzm" lay-verify="" required
+           placeholder="请输入验证码" autocomplete="off" class="layui-input"><br>
+    <a href="/login.html"><img alt="验证码" src="/yzm"></a>
+</p>
+</p>
+<p class="layui-form-item">
+    <label class="layui-form-label"></label>
+    <button class="layui-btn layui-btn-normal btn-center" type="submit">登录</button>
+</p>
+</form>
+</p>
+
+<script src="../../layui/layui.js"></script>
+</body>
 </html>

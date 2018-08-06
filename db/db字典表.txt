@@ -1,10 +1,11 @@
 tbAdminInfo	  					管理员表			
 tbAgency						代理表
 tbCustomerServer				客服表
-tbFinance						财务表
+tbCaiwuInfo*					财务表
 tbManager						经理表
-tbMerchant						商家表
+tbShangJiaInfo		*			商家表
 tbMission						任务表
-tbMoney							佣金表
-tbPromotionalSupervisor			推广主管表
+tbMoney							本金表
+tbTuiGuangManager*			推广主管表
 tbStudents						学生表
+tbLiuShuiRecord					流水记录表

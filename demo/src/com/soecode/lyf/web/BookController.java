@@ -40,6 +40,18 @@ public class BookController {
         // list.jsp + model = ModelAndView
         return "count";// WEB-INF/jsp/"list".jsp
     }
+   @RequestMapping(value = "/ShangJia")
+   private String ShangJia(Model model){
+        String shangJia = "pageShangJia";
+       model.addAttribute("pageShangJia", shangJia);
+        return "pageShangJia";
+        // 我在这里是怎么和数据库交互的？
+        //bookService.reduceNumber();
+   }
+@RequestMapping(value = "/chongZhiMoney")
+    private String chongZhiMoney(int chongZhiCount){
+        bookService.chongZhiMoney(chongZhiCount);
 
+}
 
 }

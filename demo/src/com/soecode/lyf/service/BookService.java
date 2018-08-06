@@ -22,5 +22,5 @@ public interface BookService {
 
 	int reduceNumber(long bookId);
 
-
+    String chongZhiMoney(int chongZhiCount);
 }
