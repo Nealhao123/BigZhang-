@@ -13,6 +13,6 @@
   <body>
   <a href="${pageContext.request.contextPath}/book/list">访问book/list</a>
   <a href="${pageContext.request.contextPath}/book/updateCount/1000">访问book/updateCount</a>
-  <a href="${pageContext.request.contextPath}/book/ShangJia">访问商家页面</a>
+  <a href="${pageContext.request.contextPath}/book/toBook">前往book操作页面</a>
   </body>
 </html>
