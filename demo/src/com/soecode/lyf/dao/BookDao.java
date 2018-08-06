@@ -25,6 +25,23 @@ public interface BookDao {
 	 * @return 如果影响行数等于>1，表示更新的记录行数
 	 */
 	int reduceNumber(long bookId);
+	/**
+	 * 增加图书数量
+	 *
+	 * @param book
+	 * @return 如果影响行数等于>1，表示更新的记录行数
+	 */
+	int addNumber(Book book);
+	/**
+	 * 通过id查询图书
+	 *
+	 * @param book_id 图书id
+	 * @return 图书信息
+	 */
+	Book queryOne(@Param("book_id") String book_id);
+
+	//更新操作
+	public void updateBook(Book book);
 
 
 }
