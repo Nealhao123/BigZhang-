@@ -23,6 +23,19 @@
 			book_id = #{bookId}
 		AND number > 0
 	</update>
-	
 
+	<select id="queryOne" resultType="Book">
+		SELECT
+			book_id,
+			name,
+			number
+		FROM book
+		where book_id=#{book_id}
+	</select>
+
+	<update id="updateBook" parameterType="Book">
+		update book
+		set number = #{number}
+		where book_id = #{bookId}
+	</update>
 </mapper>
